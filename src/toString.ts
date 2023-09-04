@@ -6,6 +6,9 @@ export function numberToString(num: number): any {
 
 let result = `${num}`
 console.log(typeof result)
+
+  return "" + num;
+
 }
 
 console.log(numberToString(19))
