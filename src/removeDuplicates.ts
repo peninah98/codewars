@@ -1,5 +1,5 @@
-export const distinct = (a: number[]): number[] => {
-    return Array.from(new Set(a));
-  }
+ function removeDuplicateWords(s: string): any {
+ return Array.from( new Set(s.split(" "))).join(' ').toString()
+ }
 
-  console.log(distinct([1,2,3,2,3,23,2,3,22]))
+console.log(removeDuplicateWords("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"))
