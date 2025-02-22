@@ -1,4 +1,4 @@
-export function nextId(ids: number[]): number {
+export function nextId(ids) {
   let i = 0
   while (ids.includes(i)) {
     i++
