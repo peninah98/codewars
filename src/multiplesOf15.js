@@ -1,3 +1,5 @@
 const multipleos = number => {
-    return number % 15 === 0;
+    return 15 % number === 0;
 }
+
+console.log(multipleos(3));
