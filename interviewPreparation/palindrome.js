@@ -7,4 +7,3 @@
 
 const palindromeName = (str)=>str === str.split("").reverse().join("")?true:false
 
-console.log(palindromeName("madam"))

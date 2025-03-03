@@ -4,4 +4,4 @@
 // function name: maxNumber
 
 const maxNumber = (arr) => Math.max(...arr)
-console.log(maxNumber([1, 43, 5400000, 56, 43, 4, 4444, 4334, 99999]))
+
