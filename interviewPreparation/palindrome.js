@@ -4,5 +4,3 @@ const palindrome = (name) => {
   }
   return false
 }
-
-console.log(palindrome("penine")) 
