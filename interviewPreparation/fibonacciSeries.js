@@ -17,3 +17,15 @@ const fibonacci = (n) => {
 };
 
 console.log(fibonacci(8));
+
+const sumOfibonacci = (max) => {
+  const fib = [0, 1]
+  let sum = 0
+
+  for (let i = 2; ; i++) {
+    const current = fib[i - 2] + fib[i - 1]
+    if (current >= max) return sum
+    if (current % 2 === 0) sum += current
+    fib.push(current)
+  }
+}
