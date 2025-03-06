@@ -6,4 +6,3 @@ const mergeArray = (arr1, arr2) =>{
     return arr2
 }
 
-console.log(mergeArray([4, 5, 6], [4, 5, 6,12]))
