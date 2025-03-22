@@ -13,4 +13,3 @@ function countZeros(n) {
 
   return count
 }
-
