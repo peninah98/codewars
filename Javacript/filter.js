@@ -1,0 +1,1 @@
+const filterNumbers = arr => arr.filter(element =>element / 2 === 0)
