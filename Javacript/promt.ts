@@ -1,4 +1,4 @@
-const enterName = (str: string): string => {
+const enterName = (str: string) => {
   console.log(str)
-  return str
+  return str.length
 }
