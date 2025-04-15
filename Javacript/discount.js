@@ -3,4 +3,3 @@ const calculateDiscount = (arr) =>{
     return arr.map((item) => Math.floor(item * (24/100)))
 }
 
-console.log(calculateDiscount(arr))
