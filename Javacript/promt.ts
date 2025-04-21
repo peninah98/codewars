@@ -1,6 +1,7 @@
-const enterName = (str: string) => {
-  console.log(str)
-  return str.length
-}
+// const enterName = (str: string) => {
+//   console.log(str)
+//   return str.length
+// }
 
-console.log(enterName("hello"))
+const house = new Object()
+console.log(house)
