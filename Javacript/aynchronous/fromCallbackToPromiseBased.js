@@ -1,11 +1,21 @@
-const refactoredFunc = async =>{
-    try {
-         setTimeout(() => {
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
       const data = "Data fetched successfully!";
-      callback(null, data);
+      resolve(data);
     }, 1000);
-    } catch (error) {
-        if (error) console.error("Error:", error);
-      console.log(data);    
-    }
+  });
 }
+  
+  fetchData((error, data) => {
+    if (error) {
+      console.error("Error:", error);
+    } else {
+      console.log(data);
+    }
+  });
+
+
+
+
+
